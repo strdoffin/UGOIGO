@@ -1,0 +1,78 @@
+.CarVan,
+.Seats5,
+.LocationBangkok,
+.Status,
+.Tel0123456789 {
+  text-align: left;
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+}
+
+.CarVan i,
+.Seats5 i,
+.LocationBangkok i,
+.Status i,
+.Tel0123456789 i {
+  margin-right: 5px;
+}
+
+.BtnGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Btn {
+  width: 48%;
+  background: #FFF; /* Set background to white */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  text-decoration: none; /* Remove default link styles */
+}
+
+.Btn:hover {
+  background: #FF9154; /* Change background color on hover */
+}
+.Btn2 {
+    width: 48%;
+    background: #FF9154; /* Set background to white */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none; /* Remove default link styles */
+  }
+  
+  .Btn2:hover {
+    background: rgb(250, 17, 0)/* Change background color on hover */
+  }
+
+  .round-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: -45px; /* Adjust as needed */
+    margin-top: -40px;
+
+}
+.round-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

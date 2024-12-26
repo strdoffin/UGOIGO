@@ -1,0 +1,190 @@
+
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(134, 43, 43);
+    transition: 1s;
+    background-color: #ff80ab;
+    border-radius: 50px;
+    margin: 20px 5px; /* Adjust the margin as needed */
+}
+.button2{
+    display: inline-block;
+    padding: 5px 20px;
+    width: 100px;
+    height: 34px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(134, 43, 43);
+    transition: 1s;
+    background-color: #FF9154;
+    border-radius: 50px;
+    margin: 20px 5px; /* Adjust the margin as needed */
+}
+.button:hover{
+    transition: 1s;
+    background: #4B6E68;
+}
+.button2:hover {
+    transition: 1s;
+    background: #fa3a05;
+}
+
+.button3 {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    width: 100px;
+    height: 34px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    color: #000000;
+    background: rgb(134, 43, 43);
+    transition: 1s;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 20px 5px; /* Adjust the margin as needed */
+    vertical-align: middle; /* Center the inline-block */
+}
+
+.button3:hover{
+    transition: 1s;
+    background: #4B6E68;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card-slider {
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    min-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 16px;
+  }
+  
+  .card-inner {
+    background-color: #fff; /* Set the background color to white */
+  }
+  
+  .card img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+ 
+  .description {
+    padding: 16px;
+    text-align: center;
+    border-color: black;
+    border-radius: 10%;
+  }   
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #597671;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .slider-btn:hover {
+    background-color: #F07070;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  body {
+    background: linear-gradient(#597671, #fff 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 50px; 
+    text-align: center; 
+    color: black; 
+}
+p {
+font-family: Impact, Charcoal, sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
+word-spacing: 0px;
+color: #FF0000;
+font-weight: 700;
+text-decoration: none;  
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 38px;
+    width: 100%;
+    background-color: #597671 ;
+    color: white;
+    padding: 10px;
+}
+ 
+.footer-img {
+    width: 30px;
+    margin: 0 10px; /* Set both right and left margins */
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #597671;
+    font-size: 2em;
+    margin-top: 10px; /* Decreased margin */
+}
+

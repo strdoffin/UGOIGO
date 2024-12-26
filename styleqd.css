@@ -1,0 +1,22 @@
+.PostSliderContainer {
+    height: 500px; /* Set the desired height */
+    overflow-y: auto;
+}
+
+.PostSlider {
+    width: 381px;
+    height: auto; /* Set the height to auto to allow content to expand */
+    padding-top: 54px;
+    padding-left: 24px;
+    padding-right: 23px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px rgba(0, 0, 0, 0.50) solid;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 33px;
+    display: inline-flex;
+}
+
+/* Add the rest of your styles for inner elements here */

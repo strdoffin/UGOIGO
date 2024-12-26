@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container{
+    display: block;
+    border: 1px solid black;
+    width: 380px;
+    height: max-content;
+    border-radius: 10px;
+}
+.package-container span{
+    display: block;
+    position: absolute;
+    top: 2px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: max-content;
+    background-color: #D8FDFF;
+    padding: 5px;
+}
+.description-container {
+    display: block;
+    border-radius: 10px;
+    background-color: aqua;
+    height: 100px;
+    width: 50pxp;
+}
+.package-container button {
+    display: block;
+    position: absolute;
+    color: white;
+    border-radius: 10px;
+    background-color: #4C6F69;
+    padding: 5px 20px;
+}

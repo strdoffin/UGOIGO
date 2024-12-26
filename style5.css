@@ -1,0 +1,374 @@
+
+.button {
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #fff;
+    background: rgb(134, 43, 43);
+    transition: 1s;
+    background-color: #ff80ab;
+    border-radius: 50px;
+    margin: 20px 5px; /* Adjust the margin as needed */
+}
+.button2{
+    display: inline-block;
+    padding: 5px 20px;
+    width: 100px;
+    height: 34px;
+    text-decoration: none;
+    color: #000000;
+    background: rgb(134, 43, 43);
+    transition: 1s;
+    background-color: white;
+    border-radius: 50px;
+    margin: 20px 5px; /* Adjust the margin as needed */
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+}
+.button:hover{
+    transition: 1s;
+    background: #4B6E68;
+}
+.button2:hover {
+    transition: 1s;
+    background: #fa3a05;
+}
+
+.button3 {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    width: 100px;
+    height: 34px;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    color: #000000;
+    background: rgb(134, 43, 43);
+    transition: 1s;
+    background-color: #FF9154;
+    border-radius: 50px;
+    margin: 20px 5px; /* Adjust the margin as needed */
+    vertical-align: middle; /* Center the inline-block */
+}
+
+.button3:hover{
+    transition: 1s;
+    background: #4B6E68;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card-slider {
+    margin-bottom: 50px;
+    width: 80%;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card {
+    min-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .card-inner {
+    background-color: #fff; /* Set the background color to white */
+  }
+  
+  .card img {
+    min-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 10px
+  }
+ 
+  .description {
+    min-width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 16px;
+    text-align: left;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    
+  }   
+  .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #597671;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .slider-btn:hover {
+    background-color: #F07070;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  body {
+    background: linear-gradient(#597671, #fff 30%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    gap: 50px; 
+    text-align: center; 
+    color: black; 
+}
+p {
+font-family: Impact, Charcoal, sans-serif;
+font-size: 30px;
+letter-spacing: 2px;
+word-spacing: 0px;
+color: #FF0000;
+font-weight: 700;
+text-decoration: none;  
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 38px;
+    width: 100%;
+    background-color: #597671 ;
+    color: white;
+    padding: 10px;
+}
+ 
+.footer-img {
+    width: 30px;
+    margin: 0 10px; /* Set both right and left margins */
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    color: #597671;
+    font-size: 2em;
+    margin-top: 10px; /* Decreased margin */
+}
+
+.circle {
+    width: 200px; /* ปรับขนาดตามต้องการ */
+    height: 200px; /* ปรับขนาดตามต้องการ */
+    border-radius: 50%; /* ทำให้มีรูปร่างเป็นวงกลม */
+    overflow: hidden; /* ทำให้ภาพที่เกินขอบของวงกลมถูกตัดออก */
+  }
+
+  .circle img {
+    width: 100%; /* ทำให้ภาพทำความกว้างเต็มขอบของ div */
+    height: 100%; /* รักษาอัตราส่วนของภาพ */
+    display: block; /* ปรับให้ไม่มีช่องว่างด้านล่างของ div */
+    
+  }
+
+  .info {
+    min-width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    padding: 20px;
+    
+  }
+
+  .data {
+    min-width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 16px;
+    text-align: left;
+    margin-left: 10px;
+    letter-spacing: 1px;
+
+  }
+
+  .rectangle {
+    width: 300px; /* กำหนดความกว้างของกรอบ */
+    height: 200px; /* กำหนดความสูงของกรอบ */
+    padding: 30px; /* กำหนดระยะห่างภายในกรอบ */
+    margin: -20px; /* กำหนดระยะห่างของกรอบ */
+    bottom: 0;
+    
+  }
+
+.butbox {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body {
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.CreatePostButton {
+  width: 381px;
+  height: 50px;
+  padding: 13px 198px 13px 20px;
+  background: rgba(0, 0, 0, 0.30);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  display: inline-flex;
+}
+
+.CreatePackage {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.PostSlider {
+  width: 381px;
+  height: 700px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px rgba(0, 0, 0, 0.50) solid;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.CarLocationContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Car {
+  width: 100%;
+}
+
+.CarVan,
+.Seats5 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.LocationStatusContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.LocationBangkok {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.Status {
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.Tel {
+  width: 100%;
+}
+
+.Tel0123456789 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.Frame13 {
+  width: 381px;
+  height: 200px;
+  padding: 11px 8px 10px 8px;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+
+.Price1Description {
+  width: 365px;
+  height: 179px;
+  color: black;
+  font-size: 18px;
+  font-family: Montserrat;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.BtnGroup {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.Btn {
+  width: 48%;
+  background: #FF9154;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+}
+

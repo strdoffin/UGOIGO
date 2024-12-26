@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: monospace;
+  }
+  
+  section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dbe8cf;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left {
+    width: 50%;
+    height: 600px;
+    background: url(https://images.unsplash.com/photo-1616998410703-d7a9f2b7fa8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)
+      no-repeat center / cover;
+    border-radius: 10px;
+  }
+  
+  .right {
+    width: 50%;
+    min-height: 400px;
+    background-color: #73685b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    margin-left: -150px;
+  }
+  
+  .right h1 {
+    font-size: 40px;
+    font-weight: lighter;
+  }
+  
+  .right p {
+    margin: 30px 0;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  
+  .right a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: wheat;
+    color: black;
+    display: inline-block;
+    padding: 20px 30px;
+    letter-spacing: 2px;
+  }
+  

@@ -1,0 +1,360 @@
+.Form {
+    width: 381px;
+    height: 715px;
+    position: relative;
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px rgba(0, 0, 0, 0.50) solid;
+    margin-bottom: 50px;
+}
+
+.AddPackage {
+    display: flex;
+    width: 144px;
+    padding: 3px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    left: 217px;
+    top: 290px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+}
+
+.Done {
+    display: flex;
+    width: 144px;
+    padding: 3px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    left: 20px;
+    top: 350px; /* Adjusted top position to place it below AddPackage */
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+}
+.Close{
+    display: flex;
+    width: 144px;
+    padding: 3px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    left: 220px;
+    top: 350px; /* Adjusted top position to place it below AddPackage */
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+}
+
+/* Add similar styles for PackageContainer and PackageName */
+.PackageContainer {
+    height: 205px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    left: 20px;
+    top: 67px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1px;
+    display: inline-flex;
+}
+
+.PackageName {
+    display: flex;
+    width: 176px;
+    padding: 3px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    left: 20px;
+    top: 44px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px black solid;
+}
+
+.Text {
+    color: black;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.PriceXx {
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.DescriptionLoremIpsumDolorSitAmetConsecteturAdipisicingElitRecusandaeExcepturiAbEsseRepellendusIsteQuisSuntConsecteturTotamDoloresDolors {
+    width: 301px;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+/* Reset some default styles */
+body, h1, h2, p, div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply your styles */
+.CreatePostButton {
+    width: 381px;
+    height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 198px;
+    background: rgba(0, 0, 0, 0.30);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+.CreatePackage {
+    color: white;
+    font-size: 20px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+/* Existing styles */
+
+.ButtonContainer {
+    display: flex;
+    gap: 10px;
+}
+
+
+.CloseButton {
+    display: flex;
+    width: 144px;
+    padding: 3px 2px;
+    position: absolute;
+    left: 220px;
+    top: 350px; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+    cursor: pointer; /* Add cursor pointer for better user experience */
+}
+.DoneButton
+{
+    display: flex;
+    width: 144px;
+    padding: 3px 2px;
+    position: absolute;
+    left: 20px;
+    top: 350px; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+    cursor: pointer; /* Add cursor pointer for better user experience */
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container#blur.active {
+  filter: blur(20px);
+  pointer-events: none;
+  user-select: none;
+}
+
+.container .content {
+  position: relative;
+  max-width: 800px;
+  margin-bottom: 20px; 
+  margin-top: 100px;
+}
+
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.30);
+    background: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+#popup.active {
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+
+.Confirm {
+    width: 380px;
+    height: 193px;
+    left : 50px ;
+    position: relative;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px black solid;
+  }
+  
+  .Success {
+    left: 153px;
+    top: 20px;
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+  }
+  
+  .Btn {
+    width: 163px;
+    height: 34px;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    left: 109px;
+    top: 140px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px #115448 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  
+  .Text {
+    color: black;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .Frame7 {
+    left: 27px;
+    top: 56px;
+    position: absolute;
+  }
+  
+  .CreatePackageSuccess {
+    width: 334px;
+    left: 27px;
+    top: 113px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+.Check {
+    margin-top: 55px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    left: 156px;
+    bottom: 100px; 
+    top: 0px;
+    position: absolute;
+  }
+  
+
+  body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+.box {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #333333;
+  background: #555555;
+}
+
+.hid-box {
+  top: 100%;
+  position: relative;
+  transition: all .3s ease-out;
+  background: orangered;
+  height: 100%;
+  padding: 7px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box:hover > .hid-box {
+  top: 0;
+}
+
+
+  

@@ -1,0 +1,59 @@
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #dfdfdf;
+    margin: auto; 
+    display: block; 
+    margin-top: 20px; /* Add top margin as needed */
+}
+.buttonrole {
+        width: 100px;
+        position: relative;
+        padding: 5px 20px;
+        display: inline-block;  
+        margin-top: 20px;
+        text-decoration: none;
+        color: #fff;
+        background: rgb(134, 43, 43);
+        transition: 1s;
+        background-color: #ff80ab; 
+        border-radius: 50px;
+    }
+    .buttonrole:hover {
+        transition: 1s;
+        background: #4B6E68;
+    }
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .dropdown-container {
+    position: relative;
+    display: inline-block;
+    margin-bottom :20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; 
+    margin-bottom: 8px;
+    margin-top: 12px;
+    display: block; 
+    border-radius: 10px;
+    }
+    
